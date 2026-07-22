@@ -1,0 +1,1 @@
+{"version":3,"file":"accountingEngine.d.ts","sourceRoot":"","sources":["../../src/services/accountingEngine.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,gBAAgB;IAC3B;;OAEG;IACH,kBAAkB,gBAAsB,MAAM,UAAU,MAAM;IA6B9D;;OAEG;IACH,aAAa,UAAgB,MAAM,YAAY,MAAM,UAAU,MAAM;CAgBtE,CAAC"}
