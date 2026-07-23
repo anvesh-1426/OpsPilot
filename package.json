@@ -6,15 +6,15 @@
   "scripts": {
     "dev:backend": "npm run dev --prefix backend",
     "dev:frontend": "npm run dev --prefix frontend",
-    "dev:server": "npm run dev --prefix backend",
-    "dev:client": "npm run dev --prefix frontend",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
     "build:backend": "npm run build --prefix backend",
     "build:frontend": "npm run build --prefix frontend",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
     "typecheck:backend": "npx tsc --noEmit --prefix backend",
     "typecheck:frontend": "npx tsc --noEmit --prefix frontend",
-    "db:generate": "npx prisma generate --schema=backend/prisma/schema.prisma",
-    "db:seed": "npx ts-node backend/src/prisma/seed.ts",
-    "docker:up": "docker-compose up --build -d",
-    "docker:down": "docker-compose down"
+    "typecheck:server": "npx tsc --noEmit --prefix server",
+    "typecheck:client": "npx tsc --noEmit --prefix client"
   }
 }
